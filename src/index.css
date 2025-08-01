@@ -1,0 +1,56 @@
+/* ... (existing styles from the last response) ... */
+
+/* New styles for the navigation buttons */
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex; /* Use flexbox to align arrow and text */
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* ... (the rest of your existing CSS code remains the same) ... */
+
+/* ... (existing styles from the last response) ... */
+
+/* New styles for the textarea box */
+.project-description {
+  width: 100%;
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  background-color: #333; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  border: 1px solid #555;
+  resize: vertical; /* Allows vertical resizing */
+  min-height: 100px;
+}
+
+/* ... (existing styles from the last response) ... */
+
+/* New styles for the textarea box on the edit page */
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #444;
+  color: #e0e0e0;
+  resize: vertical;
+  min-height: 100px;
+}
